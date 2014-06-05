@@ -23,6 +23,15 @@ typedef enum{
 }WEDO_TILT;
 /*
  C++ Class for Lego(R) WeDo USB-Hub
+ 
+ Before you create a WeDo class instance, 
+ you have to find HANDLE of WeDo device using find_wedo function in wedo_utils.h.
+ 
+ Prepare pointers to WeDo class and use 'new' and 'delete'
+ to ensure that output value cleared by zero and device closed.
+ If you don't do this, motor may continue to spin even after program ends.
+ 
+ How to use, See sample.cpp.
 */
 class WeDo{
 private:

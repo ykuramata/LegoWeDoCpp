@@ -43,7 +43,7 @@ If the project names is 'WeDoSmaple', files must be like below.
 * [Philo's LEGO_Power_Functions_RC.pdf](http://www.philohome.com/pf/LEGO_Power_Functions_RC_v120.pdf)
 * <http://www.crimson-systems.com/tips/t085a.htm>
 
-##About m
+##About me
 Please visit my blog.
 
 <http://enthusiastickcoding.blogspot.jp/>

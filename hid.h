@@ -1,7 +1,6 @@
 /*
  Y.Kuramata Jun. 2014
- http://enthusiastickcoding.blogspot.com/
- I referred to http://www.crimson-systems.com/tips/t085a.htm
+ http://enthusiastickcoding.blogspot.jp/
 */
 
 #include <commctrl.h>

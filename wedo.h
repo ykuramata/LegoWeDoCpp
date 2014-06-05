@@ -1,8 +1,6 @@
 /*
  Y.Kuramata June 2014
  http://enthusiastickcoding.blogspot.jp/
- 
- C++ Class for Lego(R) WeDo USB-Hub
 */
 #include "wedo_utils.h"
 
@@ -24,9 +22,7 @@ typedef enum{
 	TILT_LEFT
 }WEDO_TILT;
 /*
- WeDoを扱うクラス
- WeDoハブのHANDLEをコンストラクタWeDo(HANDLE h)かinit(HANDLE h)に渡す必要がある。
- クラスのインスタンスが消滅するときにHANDLEを閉じる。
+ C++ Class for Lego(R) WeDo USB-Hub
 */
 class WeDo{
 private:

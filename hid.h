@@ -7,7 +7,7 @@
 #include <commctrl.h>
 #include <pshpack1.h>
 
-//setupapi.dll関連
+//difinitions for setupapi.dll
 #define DIGCF_DEFAULT			0x00000001
 #define DIGCF_PRESENT			0x00000002
 #define DIGCF_ALLCLASSES		0x00000004
@@ -40,7 +40,7 @@ typedef BOOL __stdcall SETUPDIENUMDEVICEINTERFACES(HDEVINFO DeviceInfoSet, PSP_D
 typedef BOOL __stdcall SETUPDIGETDEVICEINTERFACEDETAL(HDEVINFO DeviceInfoSet, PSP_DEVICE_INTERFACE_DATA DeviceInterfaceData, PSP_DEVICE_INTERFACE_DETAIL_DATA_A DeviceInterfaceDetailData, DWORD DeviceInterfaceDetailDataSize, PDWORD RequiredSize, PSP_DEVINFO_DATA DeviceInfoData );
 typedef BOOL __stdcall SETUPDIDESTROYDEVICEINFOLIST(HDEVINFO DeviceInfoSet);
 
-//hid.dll 
+//difinitions fo hid.dll 
 #define CREATE_NEW			1
 #define CREATE_ALWAYS		2
 #define OPEN_EXISTING		3
@@ -70,7 +70,7 @@ typedef struct _HIDD_ATTRIBUTES {
 	USHORT  VendorID;
 	USHORT  ProductID;
 	USHORT  VersionNumber;
-} HIDD_ATTRIBUTES, *PHIDD_ATTRIBUTES;//【構造体: HIDD_ATTRIBUTES】
+} HIDD_ATTRIBUTES, *PHIDD_ATTRIBUTES;
 
 typedef BOOL __stdcall HIDD_GETHIDGUID(GUID *pGuid); //Get GUID
 typedef BOOL __stdcall HIDD_GETATTRIBUTES(HANDLE HidDeviceObject, PHIDD_ATTRIBUTES Attributes);// Get Vender ID and Product ID

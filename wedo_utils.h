@@ -2,16 +2,7 @@
  Y.Kuramata June 2014
  http://enthusiastickcoding.blogspot.jp/
  
- C++ Class for Lego(R) WeDo USB-Hub
- 
- I confirmed this program runs as win32 console application, using ATL library and Multibyte character set
- on Visual Studio 2010, Windows 7 32bit.
-
- I referred to below.
- -Philo's LEGO_Power_Functions_RC.pdf
-  http://www.philohome.com/pf/LEGO_Power_Functions_RC_v120.pdf
- -github itdaniher's WeDoMore
-  https://github.com/itdaniher/WeDoMore
+ This requires hid.dll and setupapi.dll.
 */
 
 #include "hid.h"
@@ -23,10 +14,7 @@ typedef unsigned char uchar;
 typedef signed char schar;
 
 /*
- This requires hid.dll and setupapi.dll.
- They must be in C:\Windows\system32.
- If you don't have these, 
- install wdksetup.exe from http://msdn.microsoft.com/en-US/en-EN/windows/hardware/hh852365
+ 
  */
 
 /*
@@ -35,9 +23,9 @@ typedef signed char schar;
   retHandles: Array of pointers to HANDLE
   max: Length of retHandles
  Return
-  Number of WeDo-Hub actually founc
+  Number of WeDo-Hub actually found
 
- You have to close HANDLEs stored in retHnadles.
+ HANDLEs stored in retHnadles must be closed elsewhere.
 */
 
 int findWedo(HANDLE *retHandles, int max);

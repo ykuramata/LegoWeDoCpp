@@ -3,15 +3,6 @@
  http://enthusiastickcoding.blogspot.jp/
  
  C++ Class for Lego(R) WeDo USB-Hub
- 
- I confirmed this program runs as win32 console application, using ATL library and Multibyte character set
- on Visual Studio 2010, Windows 7 32bit.
-
- I referred to below.
- -Philo's LEGO_Power_Functions_RC.pdf
-  http://www.philohome.com/pf/LEGO_Power_Functions_RC_v120.pdf
- -github itdaniher's WeDoMore
-  https://github.com/itdaniher/WeDoMore
 */
 #include "wedo_utils.h"
 

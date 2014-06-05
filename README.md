@@ -13,7 +13,7 @@ C++ support for LEGO WeDo USB Hub.
 * hid.dll, setupapi.dll
 * WeDo USB Hub
 
-Dlls must be in C:\Windows\system32.
+DLLs must be in C:\Windows\system32.
 
 If you don't have these, install wdksetup.exe from <http://msdn.microsoft.com/en-US/en-EN/windows/hardware/hh852365>
  
@@ -22,17 +22,18 @@ I confirmed these codes runs as win32 console application
 ##How to use it
 Create new win32 console application project on Visual Studio and copy wedo.h, wedo_utils.h and hid.h to the project directory.
 
-If the project names is 'WeDoSmaple', files are like below.
+If the project names is 'WeDoSmaple', files must be like below.
 
     WeDoSample/
      |-WeDoSample.sln
-     |- other files
-     |- ...
+     |- other files...
      |-WeDoSample/
        |-WeDoSample.h
        |-wedo.h
        |-wedo_utils.h
-       
+       |-hid.h
+       |-WeDoSample.cpp
+       |- other files and directories...
 
 ##Known Problems
 * Sometimes fails to detect device, especially motors and LEDs
@@ -42,7 +43,7 @@ If the project names is 'WeDoSmaple', files are like below.
 * [Philo's LEGO_Power_Functions_RC.pdf](http://www.philohome.com/pf/LEGO_Power_Functions_RC_v120.pdf)
 * <http://www.crimson-systems.com/tips/t085a.htm>
 
-##About me
+##About m
 Please visit my blog.
 
 <http://enthusiastickcoding.blogspot.jp/>

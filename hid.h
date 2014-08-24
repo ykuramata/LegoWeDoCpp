@@ -1,6 +1,8 @@
 /*
  Y.Kuramata Jun. 2014
  http://enthusiastickcoding.blogspot.jp/
+ 
+ This file must be encoded in SHIFT-JIS, LF (or CR+LF).
 */
 
 #include <commctrl.h>

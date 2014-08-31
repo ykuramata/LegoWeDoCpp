@@ -41,7 +41,7 @@ Then Open project's Properties Page, select 'Configuration Properties' -> 'Gener
 ##Known Problems
 * Sometimes fails to detect device, especially motors and LEDs
 
-## Caution
+## Notes
 * If you have a strange problem, check the encoding of files.
 
 ##I referred to

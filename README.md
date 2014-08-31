@@ -41,6 +41,9 @@ Then Open project's Properties Page, select 'Configuration Properties' -> 'Gener
 ##Known Problems
 * Sometimes fails to detect device, especially motors and LEDs
 
+## Caution
+* If you have a strange problem, check the encoding of files.
+
 ##I referred to
 * [WeDoMore](https://github.com/itdaniher/WeDoMore)
 * [Philo's LEGO_Power_Functions_RC.pdf](http://www.philohome.com/pf/LEGO_Power_Functions_RC_v120.pdf)

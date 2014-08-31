@@ -3,7 +3,7 @@
  http://enthusiastickcoding.blogspot.jp/
  
  This requires hid.dll and setupapi.dll.
- This file must be encoded in SHIFT-JIS, LF (or CR+LF).
+ If you have a strange error, check the encoding of this file..
 */
 
 #include "hid.h"

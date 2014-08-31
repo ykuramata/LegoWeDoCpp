@@ -3,6 +3,7 @@
 #include "wedo.h"
 /*
  A sample using WeDo class.
+ If you have a strange error, check the encoding of this file.
 */
 int _tmain(int argc, _TCHAR* argv[]){
 	HANDLE handles[4];

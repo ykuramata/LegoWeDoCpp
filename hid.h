@@ -2,7 +2,7 @@
  Y.Kuramata Jun. 2014
  http://enthusiastickcoding.blogspot.jp/
  
- This file must be encoded in SHIFT-JIS, LF (or CR+LF).
+ If you have a strange error, check the encoding of this file.
 */
 
 #include <commctrl.h>
